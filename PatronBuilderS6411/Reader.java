@@ -1,14 +1,14 @@
 public class Reader {
-
+//Atributos
     private String element;
     private Converter converter;
-
+//construtor de la clase, sirve para inicializar la clase
     public Reader(String element, Converter converter){
         this.element = element;
         this.converter = converter;
     }
 
-    //metodos 
+    //Metodos 
     public void parseInput(){
         switch (element) {
             case "LINE":

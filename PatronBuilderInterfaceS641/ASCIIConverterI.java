@@ -1,4 +1,4 @@
-public class ASCIIConverter extends Converter {
+public class ASCIIConverterI implements ConverterI {
 
     public void makeLine(){
         System.out.println("linea con ASCII");
